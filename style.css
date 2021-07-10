@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cookie', Helvetica, Arial, sans-serif;
+}
+
+body {
+    background-image: url(./zdjecia/wood-2203740_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+nav {
+    position: sticky;
+    font-family: 'Cookie', Helvetica, Arial, sans-serif;
+    width: 100%;
+    background-color: black;
+    margin-top: 10px;
+    line-height: 10vh;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.logo img {
+    position: fixed;
+    top: 10px;
+    left: 40px;
+    width: 60px;
+    z-index: 3;
+}
+
+.telephone {
+    position: fixed;
+    font-family: 'Cookie', Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    top: 3vh;
+    right: 8vw;
+    z-index: 3;
+}
+
+.telephone i {
+    margin-right: 10px;
+}
+
+.telephone a i:hover {
+    color: #FFD77F;
+}
+
+
+.banner {
+    background-color: black;
+    width: 100%;
+    height: 25vh;
+    overflow: hidden;
+}
+
+.banner img {
+    position: relative;
+    left: 60vw;
+    bottom: 45px;
+    width: 40vw;
+    height: 400px;
+}
+
+.banner p {
+    font-family: 'Cookie', italic;
+    position: absolute;
+    color: white;
+    font-size: 30px;
+    top: 15vh;
+    left: 5vw;
+    text-decoration: underline;
+}
+
+.buttons {
+    display: flex;
+    position: absolute;
+    top: 22vh;
+    left: 8vw;
+}
+
+.buttons button {
+    font-family: cursive, Geneva;
+    text-transform: uppercase;
+    padding: 8px;
+    text-decoration: none;
+    margin: 8px;
+    font-size: 0.7rem;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.order {
+    color: #7FD7FF;
+    border: 2px solid #7FD7FF;
+    background-color: #095a80;
+}
+
+.reserve {
+    color: #FFD77F;
+    border: 2px solid #FFD77F;
+    background-color: #936c02;
+}
+
+.order:hover,
+.reserve:hover {
+    background-color: #333333;
+}
+
+
+nav .desktop li {
+    font-size: 24px;
+    position: relative;
+    padding: 0 15px;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    left: calc(50% - 15vw);
+}
+
+nav .desktop li:hover a {
+    color: #FFD77F;
+}
+
+.cards {
+    display: flex;
+    color: white;
+    justify-content: center;
+    justify-content: space-around;
+    font-size: 25px;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.ingredients {
+    background: url(./zdjecia/olive-oil-1412361__340.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 5px solid black;
+    width: 30vw;
+    height: 25vh;
+}
+
+.ingredients p {
+    margin-top: 130px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.recipe {
+    background: url(./zdjecia/cook-1375788_960_720.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 5px solid black;
+    width: 30vw;
+    height: 25vh;
+}
+
+.recipe p {
+    margin-top: 130px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.delivery {
+    background: url(./zdjecia/motor-scooter-4837310_960_720.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 5px solid black;
+    width: 30vw;
+    height: 25vh;
+}
+
+.delivery p {
+    margin-top: 130px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.pizza {
+    display: flex;
+    color: white;
+    justify-content: center;
+    justify-content: space-around;
+    font-size: 25px;
+    margin: 100px 0px 0 10px;
+    line-height: 40px;
+    text-align: center;
+    background-color: black;
+    letter-spacing: 1px;
+}
+
+.pizza h2 {
+    font-size: 30px;
+}
+
+.pizza h3 {
+    font-size: 22px;
+}
+
+.pizza p {
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+.pizza img {
+    width: 20vw;
+    margin-top: 100px;
+}
+
+footer {
+    width: 100vw;
+    background-color: black;
+    margin: 0 10px 0 10px;
+    text-align: center;
+}
+
+footer ul li {
+    display: inline-block;
+    text-align: center;
+    font-size: 22px;
+    margin: 0 15px 0 15px;
+}
+
+footer ul li a:hover {
+    color: #FFD77F;
+}
+
+.mobile {
+    display: none;
+}
+
+.banner-mobile {
+    display: none;
+}
